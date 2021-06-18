@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  list-style: none !important;
+}
+
+* body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(./img/backgorund.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+button {
+  background: transparent;
+  border: none;
+}
+
+.wrapper {
+  width: 420px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 0px 0px 10px 5px;
+  height: 670px;
+  background: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.wrapper .calc-header nav {
+  left: 0;
+  position: absolute;
+  top: 0;
+  margin-bottom: 13px;
+  width: 420px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 65px;
+  padding: 0px 20px;
+  background: green;
+  opacity: .5;
+}
+
+.wrapper .calc-header nav h4 {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrapper .calc-header nav #nav-btn {
+  font-size: 23px;
+  color: #fff;
+}
+
+.wrapper .calc-header nav #btn-category {
+  font-size: 23px;
+  color: #fff;
+}
+
+.wrapper form .hesabla {
+  text-align: center;
+  font-size: 22px;
+  color: #000;
+  margin-top: 60px;
+  width: 397px;
+  height: 120px;
+  background: #fff;
+  border: none;
+}
+
+.wrapper form button {
+  width: 90px;
+  border-radius: 4px;
+  font-size: 30px;
+  background: rgba(0, 0, 0, 0.027);
+  height: 60px;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 3px;
+  font-weight: bold;
+}
+
+.wrapper form button.zero {
+  width: 190px;
+}
+
+.wrapper form button.del {
+  background: crimson;
+  color: #fff;
+}
+
+.wrapper form button.beraber {
+  width: 190px;
+  background: green;
+  color: #fff;
+  opacity: .7;
+}
+
+.wrapper form button.plus {
+  height: 126px;
+}
+/*# sourceMappingURL=sass.css.map */
